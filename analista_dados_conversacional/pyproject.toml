@@ -1,0 +1,10 @@
+[project]
+name = "analista-dados-conversacional"
+version = "0.1.0"
+description = "Analista de dados conversacional (Text-to-SQL) com FastAPI, Postgres, pgvector e Grok."
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+pythonpath = ["server"]
+testpaths = ["server/tests"]
