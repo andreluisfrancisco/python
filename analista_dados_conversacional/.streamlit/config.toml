@@ -1,0 +1,3 @@
+[client]
+# Esconde o botão Deploy e as ações de desenvolvedor da barra superior.
+toolbarMode = "viewer"
